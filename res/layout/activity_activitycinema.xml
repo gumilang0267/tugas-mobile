@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wtcshop.Activitycinema" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CINEMA 21" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/cinema2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cinema 21 menawarkan pengalaman menonton paling berkesan, dimana beberapa film yang telah hadir menawarkan fasilitas 3D dimana menonton film bersama keluarga dan orang tercinta akan semakin asyik.
+Cinema 21 berada pada Mall terbesar di Kota Jambi yaitu WTC dimana Cinema 21 merupakan sata-satunya theater yang berada di Kota Jambi, Dengan harga tiket yang terjangkau Cinema 21 merupakan pilihan terbaik anda dan keluarga dalam hiburan berupa film.
+Selain menawarkan tontonan cinema 21 dilengkapi oleh cafe diamana pengunjung dapat dengan nyaman membeli makanan kecil sebelum menonton tanpa harus repot pergi keluar area Cinema 21." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

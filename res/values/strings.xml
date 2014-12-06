@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WtcShop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activitycinema">Activitycinema</string>
+    <string name="title_activity_optik__melawai">Optik_Melawai</string>
+    <string name="title_activity_toyota">Toyota</string>
+    <string name="title_activity_melawai">Melawai</string>
+
+</resources>

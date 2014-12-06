@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wtcshop.Melawai" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPTIK MELAWAI" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/melawai2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Optik Melawai
+
+Optik melawai merupakan pusat penjualan kacamata terbesar di seluruh kota besar di Indonesia, Optik melawai di kota jambi terletak di Mall WTC, dimana merupakan pilihan yang tepat dalam hal pemeriksaan mata serta penjualan kacamata.
+Merek ternama dari produsen kacamata ada di optik melawai, selain menawarkan merek ternama kacamata type terbaru pun ikut meramaikan etalase toko ini.
+Pemeriksaan mata dapat dilakukan secara gratis di toko ini selain penjualan dan pemeriksaan mata, disini kita dapan melakukan pencucian kacamata sebagai bagian dari service yang baik yang ditawarkan Optik MElawai.
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
